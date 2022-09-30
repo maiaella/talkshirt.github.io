@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mesa.ehdproject"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="16" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo.NoActionBar" >
+        <activity
+            android:name="com.mesa.ehdproject.Splash"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Holo.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name="com.mesa.ehdproject.Home"
+            android:label="@string/title_activity_index"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+        </activity>
+       
+        <activity
+            android:name="com.mesa.ehdproject.MainActivity"
+            android:label="@string/title_activity_index"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.mesa.ehdproject.About"
+            android:label="@string/title_activity_about"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.mesa.ehdproject.Contact"
+            android:label="@string/title_activity_contact"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.mesa.ehdproject.Project"
+            android:label="@string/title_activity_project"
+            android:theme="@android:style/Theme.Holo.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.mesa.ehdproject.Aboutehd"
+            android:label="@string/title_activity_aboutehd"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.mesa.ehdproject.Legal"
+            android:label="@string/title_activity_legal"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.mesa.ehdproject.Developer"
+            android:label="@string/title_activity_developer"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.mesa.ehdproject.Terms"
+            android:label="@string/title_activity_terms"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.mesa.ehdproject.NoConnection"
+            android:label="@string/title_activity_no_connection"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.mesa.ehdproject.Products"
+            android:label="@string/title_activity_products"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.mesa.ehdproject.News"
+            android:label="@string/title_activity_news"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.mesa.ehdproject.Location"
+            android:label="@string/title_activity_location" >
+        </activity>
+        
+    </application>
+
+</manifest>
